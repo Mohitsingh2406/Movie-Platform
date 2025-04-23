@@ -53,6 +53,7 @@ const People = () => {
                     <i
                         onClick={() => navigate(-1)}
                         className="hover:text-[#6556CD] ri-arrow-left-line"
+                        
                     ></i>{" "}
                     People
                 </h1>
