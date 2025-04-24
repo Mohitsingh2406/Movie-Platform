@@ -63,7 +63,6 @@ const People = () => {
                     <div className="w-[2%]"></div>
                 </div>
             </div>
-
             <InfiniteScroll
                 dataLength={person.length}
                 next={GetPerson}
