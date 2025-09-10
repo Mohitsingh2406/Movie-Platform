@@ -17,8 +17,8 @@ const HorizontalCards = ({ data, title }) => {
                             src={
                                 d.backdrop_path || d.poster_path
                                     ? `https://image.tmdb.org/t/p/original${
-                                          d.backdrop_path || d.poster_path
-                                      }`
+                                        d.backdrop_path || d.poster_path
+                                        }`
                                     : noimage
                             }
                             alt=""
@@ -31,7 +31,7 @@ const HorizontalCards = ({ data, title }) => {
                                     d.original_title}
                             </h1>
                             <p className="">
-                                {d.overview.slice(0, 50)}...
+                                {d?.overview?.slice(0, 50)}...
                                 <span className="text-zinc-500"> more</span>
                             </p>
                         </div>
